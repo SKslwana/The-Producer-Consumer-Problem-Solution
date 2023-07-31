@@ -9,4 +9,4 @@ The consumer prints the student information, average mark, and pass/fail status 
 
 The producer and consumer run concurrently in separate threads. The producer generates and wraps student information in XML files, while the consumer reads and processes the XML files.
 
-In the generate_name function under the 'ITstudent' class, the random.choice function keeps on returning the same student name in some student files. Thats the challenge we have right now which we need to fix.
+In the generate_name function under the 'ITstudent' class, the random.choice function keeps on returning the same student name in some student files. Thats the challenge we have right now.
